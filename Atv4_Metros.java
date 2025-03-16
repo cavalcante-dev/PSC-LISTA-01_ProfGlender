@@ -13,7 +13,7 @@ public class Atv4_Metros {
         pes = centimetros / 30.48; 
         polegadas = centimetros / 2.54;
 
-        System.out.printf("Altura em Polegadas: %.2f \nAltura em Pés: %.0f", polegadas, pes);
+        System.out.printf("Altura em Polegadas: %.2f \nAltura em Pés: %.2f", polegadas, pes);
 
         sc.close();
 
