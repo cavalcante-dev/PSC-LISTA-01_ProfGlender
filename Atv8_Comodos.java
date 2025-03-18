@@ -25,9 +25,9 @@ public class Atv8_Comodos {
             case 2:
             
             //Comodo 1
-            System.out.println("Digite a largura em Metros (m) do segundo cômodo: ");
+            System.out.println("Digite a largura em Metros (m) do primeiro cômodo: ");
             largura1 = sc.nextDouble();
-            System.out.println("Digite o comprimento em Metros (m) do segundo cômodo: ");
+            System.out.println("Digite o comprimento em Metros (m) do primeiro cômodo: ");
             comprimento1 = sc.nextDouble();
             
             //Comodo 2
@@ -46,9 +46,9 @@ public class Atv8_Comodos {
     
 
             //Comodo 1
-            System.out.println("Digite a largura em Metros (m) do segundo cômodo: ");
+            System.out.println("Digite a largura em Metros (m) do primeiro cômodo: ");
             largura1 = sc.nextDouble();
-            System.out.println("Digite o comprimento em Metros (m) do segundo cômodo: ");
+            System.out.println("Digite o comprimento em Metros (m) do primeiro cômodo: ");
             comprimento1 = sc.nextDouble();
             
             //Comodo 2
@@ -58,9 +58,9 @@ public class Atv8_Comodos {
             comprimento2 = sc.nextDouble();
 
             //Comodo 3
-            System.out.println("Digite a largura em Metros (m) do segundo cômodo: ");
+            System.out.println("Digite a largura em Metros (m) do terceiro cômodo: ");
             largura3 = sc.nextDouble();
-            System.out.println("Digite o comprimento em Metros (m) do segundo cômodo: ");
+            System.out.println("Digite o comprimento em Metros (m) do terceiro cômodo: ");
             comprimento3 = sc.nextDouble();
 
             area1 = largura1 * comprimento1;
