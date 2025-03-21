@@ -10,15 +10,36 @@ public class Desafio_Extra {
         System.out.println("Digite o valor inserido: ");
         valor = sc.nextInt();
 
-        int [] notas = {100, 50, 20, 10, 5, 2, 1}; //Priorizando sempre o menor número de notas (Ordem Descrescente)
+        valor = valor %= 100;
+        System.out.println("Quantidade de notas de 100: " + valor);
+        
+        valor = valor %= 50;
+        System.out.println("Quantidade de notas de 50: " + valor);
+        
+        valor = valor %= 20;
+        System.out.println("Quantidade de notas de 20: " + valor);
+        
+        valor = valor %= 10;
+        System.out.println("Quantidade de notas de 10: " + valor);
+        
+        valor = valor %= 5;
+        System.out.println("Quantidade de notas de 5: " + valor);
+        
+        valor = valor %= 2;
+        System.out.println("Quantidade de notas de 2: " + valor);
+        
+        valor = valor %= 1;
+        System.out.println("Quantidade de notas de 1: " + valor);
+    
+    /*      int [] notas = {100, 50, 20, 10, 5, 2, 1};
 
-        for (int nota : notas) { // Inicio do loop
+        for (int nota : notas) { 
             int quantidadeNotas = valor / nota;
-            if (quantidadeNotas > 0) { //Condição de encerramento
+            if (quantidadeNotas > 0) {
                 System.out.println("Notas de R$ " + nota + ",00: " + quantidadeNotas);
-                valor %= nota; //Calcula o que falta do troco para ser divido
+                valor %= nota; 
             }
-        }
+        } */
 
         sc.close();
 
